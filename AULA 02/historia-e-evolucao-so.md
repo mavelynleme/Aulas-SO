@@ -120,4 +120,5 @@ Cada geração trouxe:
 - novos modos de uso  
 - novas necessidades  
 - novas soluções de software  
+![Válvulas](images/Colossus.webp)
 
