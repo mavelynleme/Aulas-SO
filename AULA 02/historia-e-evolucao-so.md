@@ -275,3 +275,228 @@ Isso reduziu o tempo de resposta e melhorou a produtividade.
 - **CTSS (MIT)**  
 
 Também surgiu o projeto **MULTICS**, que buscava criar um sistema compartilhado gigante para muitos usuários — conceito que influenciou sistemas posteriores.
+
+## 1.2.4 A quarta geração (1980–presente): computadores pessoais
+
+A quarta geração é marcada pela **popularização dos microprocessadores** e pelo surgimento dos **computadores pessoais (PCs)**.
+
+Diferentemente das gerações anteriores, dominadas por grandes mainframes, essa fase trouxe o computador para:
+
+- escritórios  
+- escolas  
+- pequenas empresas  
+- residências  
+
+Isso transformou profundamente a relação entre pessoas e tecnologia.
+
+### Surgimento do computador pessoal
+
+O desenvolvimento de microprocessadores permitiu construir computadores:
+
+- menores  
+- mais baratos  
+- acessíveis ao público geral  
+
+Um marco importante foi o lançamento do **IBM PC (1981)**, que ajudou a padronizar o mercado.  
+Outro marco relevante foi o **Apple Macintosh**, que popularizou interfaces gráficas.
+
+### Sistemas operacionais dessa geração
+
+No início, os sistemas operacionais para PCs eram simples. Geralmente:
+
+- executavam apenas um programa por vez  
+- possuíam pouca proteção de memória  
+- tinham interface baseada em texto  
+
+Um exemplo clássico foi o **MS-DOS**, que dominou os PCs da IBM por anos.
+
+Com o aumento do poder de hardware, surgiram sistemas operacionais mais avançados, como:
+
+- Windows  
+- macOS  
+- Linux  
+
+Esses sistemas passaram a oferecer:
+
+- multitarefa  
+- suporte a redes  
+- interface gráfica amigável  
+- gerenciamento avançado de memória  
+- segurança de usuários  
+
+### Interfaces gráficas (GUI)
+
+Uma mudança fundamental foi a adoção das **interfaces gráficas de usuário (GUI)**.
+
+**Antes:**
+
+- comandos digitados manualmente  
+- aprendizado mais difícil  
+- uso restrito a especialistas  
+
+**Com GUI:**
+
+- uso de mouse  
+- janelas  
+- ícones  
+- menus  
+
+Isso tornou o computador acessível a qualquer pessoa e foi decisivo para a popularização da informática.
+
+### Redes e sistemas distribuídos
+
+Com o crescimento das redes locais e da internet, os sistemas operacionais passaram a incluir:
+
+- protocolos de rede integrados  
+- compartilhamento de arquivos  
+- suporte a múltiplos usuários conectados  
+- comunicação entre computadores  
+
+Surgiram também conceitos como:
+
+- computação cliente-servidor  
+- sistemas distribuídos  
+- serviços de rede integrados ao sistema operacional  
+
+### Multiprocessamento
+
+Outro avanço foi o suporte a:
+
+- múltiplos processadores  
+- múltiplos núcleos  
+- paralelismo  
+
+Os sistemas operacionais passaram a gerenciar:
+
+- sincronização de processos  
+- escalonamento paralelo  
+- uso eficiente de CPU multicore  
+
+Isso permitiu aumento significativo de desempenho.
+
+### Virtualização
+
+A **virtualização** também ganhou força. Ela permite:
+
+- executar vários sistemas operacionais no mesmo hardware  
+- isolar ambientes  
+- testar softwares com segurança  
+
+Isso se tornou fundamental em:
+
+- servidores  
+- computação em nuvem  
+- ambientes corporativos  
+- desenvolvimento de software  
+
+---
+
+## 1.2.5 A quinta geração (1990–presente): computadores móveis
+
+A quinta geração é caracterizada pela ascensão dos **dispositivos móveis**, incluindo:
+
+- smartphones  
+- tablets  
+- relógios inteligentes  
+- dispositivos embarcados  
+
+Esses equipamentos mudaram novamente o conceito de computação.
+
+Hoje o computador:
+
+- está sempre ligado  
+- acompanha o usuário  
+- depende de conectividade constante  
+- precisa consumir pouca energia  
+
+### Sistemas operacionais móveis
+
+Os sistemas operacionais móveis lidam com novos desafios:
+
+- bateria limitada  
+- sensores diversos  
+- conectividade sem fio  
+- interfaces sensíveis ao toque  
+- mobilidade constante  
+
+Principais exemplos:
+
+- Android  
+- iOS  
+
+Eles oferecem:
+
+- gerenciamento agressivo de energia  
+- suspensão automática de aplicativos  
+- segurança por permissões  
+- lojas de aplicativos  
+- atualização remota  
+
+### Computação ubíqua
+
+A computação deixou de ser centralizada e está presente em:
+
+- carros  
+- televisores  
+- eletrodomésticos  
+- sistemas industriais  
+- dispositivos IoT  
+
+Isso exige sistemas operacionais:
+
+- leves  
+- especializados  
+- seguros  
+- confiáveis  
+
+Muitos dispositivos usam versões adaptadas de:
+
+- Linux embarcado  
+- RTOS (sistemas de tempo real)  
+
+### Segurança e conectividade
+
+Com a mobilidade, surgiram novas preocupações:
+
+- proteção de dados pessoais  
+- criptografia  
+- autenticação biométrica  
+- controle de permissões  
+- atualização automática contra vulnerabilidades  
+
+Os sistemas operacionais modernos precisam equilibrar:
+
+- segurança  
+- desempenho  
+- consumo de energia  
+- experiência do usuário  
+
+---
+
+## Conclusão da evolução histórica
+
+A história dos sistemas operacionais mostra uma evolução contínua:
+
+- computadores sem sistema operacional  
+- processamento em lote  
+- multiprogramação e timesharing  
+- computadores pessoais com GUI  
+- dispositivos móveis e computação ubíqua  
+
+Cada etapa surgiu para resolver limitações da anterior.
+
+Hoje, os sistemas operacionais são:
+
+- extremamente complexos  
+- altamente otimizados  
+- essenciais para qualquer dispositivo computacional  
+
+Eles continuam evoluindo para suportar:
+
+- computação em nuvem  
+- inteligência artificial  
+- internet das coisas  
+- sistemas autônomos  
+
+O estudo dessa evolução permite compreender por que os sistemas atuais funcionam da forma que funcionam.
+
