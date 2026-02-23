@@ -121,4 +121,157 @@ Cada geração trouxe:
 - novas necessidades  
 - novas soluções de software  
 ![Válvulas](images/Colossus.webp)
+## Primeiros computadores digitais
 
+Os primeiros computadores digitais surgiram durante e após a Segunda Guerra Mundial.
+
+Eles utilizavam **válvulas eletrônicas** e eram:
+
+- enormes  
+- caros  
+- pouco confiáveis  
+- lentos pelos padrões atuais  
+
+### Exemplos importantes
+
+- ENIAC  
+- Colossus  
+- Mark I  
+
+### Características dessa geração
+
+- não existiam sistemas operacionais  
+- programação feita em **código de máquina**  
+- ou por **conexões físicas de cabos**  
+- um único grupo fazia tudo (projetar, programar, operar)  
+- computadores executavam apenas **um programa por vez**  
+
+### Principais usos
+
+- cálculos científicos  
+- tabelas matemáticas  
+- trajetórias balísticas  
+
+### Cartões perfurados
+
+No início dos anos 1950, surgiram os **cartões perfurados**, que permitiam:
+
+- escrever programas previamente  
+- carregar dados mais facilmente  
+- reduzir o uso de painéis de cabos  
+
+Mesmo assim, ainda não havia sistema operacional real.
+
+---
+
+## 1.2.2 A segunda geração (1955–1965): transistores e sistemas em lote (batch)
+
+A invenção do **transistor** tornou os computadores:
+
+- menores  
+- mais rápidos  
+- mais confiáveis  
+
+Isso permitiu sua comercialização e uso em:
+
+- universidades  
+- governos  
+- grandes empresas  
+
+### Separação de funções
+
+Pela primeira vez houve divisão entre:
+
+- projetistas  
+- operadores  
+- programadores  
+- manutenção  
+
+### Problema: desperdício de tempo
+
+O computador ficava ocioso enquanto:
+
+- operadores carregavam cartões  
+- compiladores eram preparados  
+- saídas eram recolhidas  
+
+### Solução: sistemas em lote (batch)
+
+Nos sistemas **batch**:
+
+- vários programas eram reunidos em um lote  
+- os cartões eram convertidos em **fita magnética**  
+- o computador executava automaticamente cada tarefa  
+- a saída era gravada em outra fita  
+- depois impressa separadamente  
+
+Isso reduzia o tempo perdido e aumentava a eficiência.
+
+### Surgimento dos primeiros sistemas operacionais simples
+
+Programas especiais passaram a:
+
+- ler tarefas da fita  
+- executá-las em sequência  
+- controlar entrada e saída  
+
+Eles foram os **precursores dos sistemas operacionais modernos**.
+
+---
+
+## 1.2.3 A terceira geração (1965–1980): circuitos integrados e multiprogramação
+
+Com os **circuitos integrados (CIs)**, os computadores ficaram ainda mais poderosos.
+
+Um marco importante foi a família **IBM System/360**, que introduziu:
+
+- compatibilidade entre modelos  
+- arquitetura padronizada  
+- grande variedade de aplicações  
+
+### OS/360
+
+Criado para rodar em todos os modelos da linha.
+
+Era:
+
+- enorme  
+- complexo  
+- cheio de erros inicialmente  
+- mas muito influente  
+
+### Multiprogramação
+
+Grande inovação dessa geração.
+
+Permitia:
+
+- vários programas na memória ao mesmo tempo  
+- CPU alternando entre eles  
+- evitar tempo ocioso durante operações de E/S  
+
+Isso aumentou drasticamente a eficiência do sistema.
+
+### Spooling
+
+Outra técnica importante:
+
+- tarefas eram carregadas do cartão para o disco  
+- o sistema buscava novas tarefas automaticamente  
+- eliminava transporte manual de fitas  
+
+### Timesharing (tempo compartilhado)
+
+Sistema interativo em que:
+
+- vários usuários acessam o computador simultaneamente  
+- cada um usa um terminal  
+- CPU alterna rapidamente entre usuários  
+
+Isso reduziu o tempo de resposta e melhorou a produtividade.
+
+### Exemplos históricos
+
+- **CTSS (MIT)**  
+
+Também surgiu o projeto **MULTICS**, que buscava criar um sistema compartilhado gigante para muitos usuários — conceito que influenciou sistemas posteriores.
