@@ -47,10 +47,5 @@
 - Android 12 (2021)
 - iOS 15 (2021)
 
-## Participantes
-- [Nome do aluno 1]
-- [Nome do aluno 2]
-- [Nome do aluno 3]
 
-## Link para o Board Original no Miro
-[Clique aqui para acessar o board colaborativo](https://miro.com/app/board/seu-link-aqui)
+
