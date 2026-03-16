@@ -231,6 +231,14 @@ Com ele é possível:
 - Utilizar navegador
 - Configurar o sistema
 
+![01](01.png)
+![02](02.png)
+![03](03.png)
+![04](04.png)
+![05](05.png)
+![06](06.png)
+![07](07.png)
+
 ---
 
 # 💻 11. Utilizando o Terminal
