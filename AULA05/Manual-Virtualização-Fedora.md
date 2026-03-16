@@ -231,14 +231,13 @@ Com ele é possível:
 - Utilizar navegador
 - Configurar o sistema
 
-![01](AULA05/testes-fedora/01.png)
-![02](AULA05/testes-fedora/02.png)
-![03](AULA05/testes-fedora/03.png)
-![04](AULA05/testes-fedora/04.png)
-![05](AULA05/testes-fedora/05.png)
-![06](AULA05/testes-fedora/06.png)
-![07](AULA05/testes-fedora/07.png)
-
+![01](testes-fedora/01.png)
+![02](testes-fedora/02.png)
+![03](testes-fedora/03.png)
+![04](testes-fedora/04.png)
+![05](testes-fedora/05.png)
+![06](testes-fedora/06.png)
+![07](testes-fedora/07.png)
 ---
 
 # 💻 11. Utilizando o Terminal
