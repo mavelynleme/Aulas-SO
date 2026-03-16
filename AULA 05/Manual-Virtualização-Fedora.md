@@ -231,13 +231,13 @@ Com ele é possível:
 - Utilizar navegador
 - Configurar o sistema
 
-![01](01.png)
-![02](02.png)
-![03](03.png)
-![04](04.png)
-![05](05.png)
-![06](06.png)
-![07](07.png)
+![01](aula05/testes%20fedora/01.png)
+![02](aula05/testes%20fedora/02.png)
+![03](aula05/testes%20fedora/03.png)
+![04](aula05/testes%20fedora/04.png)
+![05](aula05/testes%20fedora/05.png)
+![06](aula05/testes%20fedora/06.png)
+![07](aula05/testes%20fedora/07.png)
 
 ---
 
