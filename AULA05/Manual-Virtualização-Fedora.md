@@ -250,7 +250,7 @@ Alguns comandos básicos:
 
 ```bash
 ls
-
+---
 # 🧪 12. Testes Realizados
 
 Durante a exploração da máquina virtual foram realizados alguns testes básicos para verificar se o sistema estava funcionando corretamente.
