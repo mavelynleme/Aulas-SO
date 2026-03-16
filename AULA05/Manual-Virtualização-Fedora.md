@@ -248,8 +248,8 @@ Alguns comandos básicos:
 
 ## Listar arquivos
 
-```bash
-ls
+( ```bash
+ls )
 ---
 # 🧪 12. Testes Realizados
 
@@ -297,6 +297,7 @@ A realização desta atividade permitiu compreender na prática o funcionamento 
 Também foi possível instalar e explorar o sistema operacional Fedora Linux, adquirindo conhecimentos importantes sobre criação de máquinas virtuais e instalação de sistemas baseados em Linux.
 
 A virtualização é uma ferramenta essencial na área de tecnologia da informação, sendo amplamente utilizada em ambientes de desenvolvimento, servidores e computação em nuvem.
+
 
 ---
 
