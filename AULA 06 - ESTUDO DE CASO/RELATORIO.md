@@ -188,7 +188,7 @@ A computação em nuvem utiliza o modelo **pay-as-you-go**, no qual a empresa pa
 
 ### 📊 Análise
 
-A computação em nuvem apresenta maior flexibilidade e escalabilidade, sendo ideal para startups em crescimento. No entanto, os custos podem aumentar conforme o uso, especialmente devido a fatores como transferência de dados e armazenamento adicional :contentReference[oaicite:4]{index=4}.
+A computação em nuvem apresenta maior flexibilidade e escalabilidade, sendo ideal para startups em crescimento. No entanto, os custos podem aumentar conforme o uso, especialmente devido a fatores como transferência de dados e armazenamento adicional 
 
 Já a infraestrutura local pode ser vantajosa em cenários de uso estável e previsível, mas exige alto investimento inicial e maior responsabilidade operacional.
 
