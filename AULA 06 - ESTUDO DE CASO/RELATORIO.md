@@ -4,7 +4,6 @@
 ---
 
 👤 **Aluno:** Mavelyn Leme, Mauro Jose, Beatriz Proença e Macelle Goes
-🎓 **Curso:** ______________________________________  
 📚 **Disciplina:** Sistemas Operacionais  
 👨‍🏫 **Professor:** Prof. Me. Deivison S. Takatu  
 ---
