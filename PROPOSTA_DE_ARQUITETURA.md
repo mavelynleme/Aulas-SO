@@ -1,0 +1,311 @@
+# 📄 RELATÓRIO – PROPOSTA DE ARQUITETURA DE INFRAESTRUTURA
+
+## Estudo de Caso I – Sistemas Operacionais
+
+---
+
+## 1. Introdução
+
+A empresa DevStore enfrenta desafios relacionados à escalabilidade, organização e segurança de sua infraestrutura de TI, decorrentes do uso de servidores locais sem padronização e da ausência de um fluxo estruturado de desenvolvimento.
+
+Este relatório propõe uma arquitetura baseada em:
+
+* Pipeline CI/CD
+* Ambientes isolados
+* Containerização com Docker
+* Computação em nuvem
+* Segurança e monitoramento
+
+---
+
+## 2. Problemas Identificados
+
+| Problema              | Impacto                        |
+| --------------------- | ------------------------------ |
+| Falta de padronização | Inconsistência entre ambientes |
+| Sem testes            | Bugs em produção               |
+| Sem versionamento     | Dificuldade de controle        |
+| Servidores locais     | Baixa escalabilidade           |
+| Sem isolamento        | Conflitos entre sistemas       |
+
+---
+
+## 3. Arquitetura Proposta
+
+---
+
+## 3.1 Fluxo de Desenvolvimento (Pipeline)
+
+```text id="z6j9l7"
+DEV → BUILD → TESTE → HOMOLOGAÇÃO → PRODUÇÃO
+```
+
+### 📊 Tabela de Responsabilidades por Etapa
+
+| Etapa       | Ação               | Ferramenta   |
+| ----------- | ------------------ | ------------ |
+| DEV         | Codificação        | IDE + Docker |
+| BUILD       | Empacotamento      | Docker       |
+| TESTE       | Testes automáticos | Scripts      |
+| HOMOLOGAÇÃO | Validação real     | Container    |
+| PRODUÇÃO    | Deploy             | Nuvem        |
+
+---
+
+### 📌 Diagrama UML – Pipeline (Atividade)
+
+```plantuml id="d4y1k2"
+@startuml
+start
+
+:Desenvolvimento;
+:Build (Docker Image);
+:Testes Automatizados;
+
+if (Testes OK?) then (Sim)
+  :Homologação;
+  if (Aprovado?) then (Sim)
+    :Produção;
+  else (Não)
+    :Correção;
+  endif
+else (Não)
+  :Correção;
+endif
+
+stop
+@enduml
+```
+
+---
+
+## 3.2 Ambientes Isolados
+
+### 📊 Tabela Comparativa
+
+| Ambiente    | Isolamento | Risco   | Uso             |
+| ----------- | ---------- | ------- | --------------- |
+| DEV         | Baixo      | Alto    | Desenvolvimento |
+| TESTE       | Médio      | Médio   | Validação       |
+| HOMOLOGAÇÃO | Alto       | Baixo   | Simulação       |
+| PRODUÇÃO    | Total      | Crítico | Sistema real    |
+
+---
+
+### 📌 Diagrama UML – Ambientes
+
+```plantuml id="g7k3m1"
+@startuml
+
+node "DEV" {
+  component "Aplicação"
+}
+
+node "TESTE" {
+  component "Aplicação Teste"
+}
+
+node "HOMOLOGAÇÃO" {
+  component "Aplicação Validada"
+}
+
+node "PRODUÇÃO" {
+  component "Sistema Real"
+}
+
+DEV --> TESTE
+TESTE --> HOMOLOGAÇÃO
+HOMOLOGAÇÃO --> PRODUÇÃO
+
+@enduml
+```
+
+---
+
+## 3.3 Containerização com Docker
+
+### 📊 Comparação: VM vs Container
+
+| Critério      | Máquina Virtual | Container |
+| ------------- | --------------- | --------- |
+| Peso          | Alto            | Baixo     |
+| Inicialização | Lenta           | Rápida    |
+| Consumo       | Alto            | Baixo     |
+| Portabilidade | Média           | Alta      |
+| Isolamento    | Total           | Parcial   |
+
+---
+
+### 📌 Diagrama UML – Arquitetura Docker
+
+```plantuml id="p9v2c8"
+@startuml
+
+node "Host OS" {
+  component "Docker Engine"
+
+  node "Container 1" {
+    component "App"
+  }
+
+  node "Container 2" {
+    component "App"
+  }
+
+  node "Container 3" {
+    component "App"
+  }
+}
+
+@enduml
+```
+
+---
+
+## 3.4 Infraestrutura em Nuvem
+
+### 📊 Componentes da Nuvem
+
+| Componente     | Função        |
+| -------------- | ------------- |
+| Servidor Cloud | Execução      |
+| Storage        | Armazenamento |
+| Rede           | Comunicação   |
+| Load Balancer  | Distribuição  |
+
+---
+
+### 📌 Diagrama UML – Arquitetura em Nuvem
+
+```plantuml id="h2n8q4"
+@startuml
+
+cloud "Nuvem" {
+
+  node "Load Balancer" {
+  }
+
+  node "Servidor 1" {
+    component "Container"
+  }
+
+  node "Servidor 2" {
+    component "Container"
+  }
+
+  database "Storage"
+
+}
+
+"Load Balancer" --> "Servidor 1"
+"Load Balancer" --> "Servidor 2"
+"Servidor 1" --> "Storage"
+"Servidor 2" --> "Storage"
+
+@enduml
+```
+
+---
+
+## 3.5 Segurança e Monitoramento
+
+### 📊 Tabela de Segurança
+
+| Controle   | Função               |
+| ---------- | -------------------- |
+| Firewall   | Bloquear acessos     |
+| Permissões | Controle de usuários |
+| Containers | Isolamento           |
+| Logs       | Auditoria            |
+
+---
+
+### 📊 Monitoramento
+
+| Recurso | Objetivo      |
+| ------- | ------------- |
+| CPU     | Performance   |
+| Memória | Estabilidade  |
+| Disco   | Armazenamento |
+| Logs    | Diagnóstico   |
+
+---
+
+### 📌 Diagrama UML – Monitoramento
+
+```plantuml id="k5w8r3"
+@startuml
+
+node "Sistema" {
+  component "Aplicação"
+}
+
+node "Monitoramento" {
+  component "Logs"
+  component "Métricas"
+}
+
+"Sistema" --> "Monitoramento"
+
+@enduml
+```
+
+---
+
+## 4. Arquitetura Geral Integrada
+
+```plantuml id="z2x7q9"
+@startuml
+
+actor Desenvolvedor
+
+node "Pipeline CI/CD" {
+  component Build
+  component Teste
+}
+
+node "Ambiente Homologação" {
+  component Container
+}
+
+cloud "Nuvem" {
+  node "Produção" {
+    component Container
+  }
+}
+
+Desenvolvedor --> Build
+Build --> Teste
+Teste --> "Ambiente Homologação"
+"Ambiente Homologação" --> Produção
+
+@enduml
+```
+
+---
+
+## 5. Justificativas Técnicas
+
+| Critério       | Solução                 |
+| -------------- | ----------------------- |
+| Desempenho     | Containers leves        |
+| Custo          | Uso de nuvem            |
+| Escalabilidade | Infraestrutura elástica |
+| Segurança      | Isolamento + controle   |
+| Confiabilidade | Pipeline estruturado    |
+
+---
+
+## 6. Conclusão
+
+A solução proposta transforma a infraestrutura da DevStore em um sistema moderno, organizado e escalável, baseado em boas práticas de engenharia de software.
+
+Os principais ganhos incluem:
+
+* Padronização de ambientes
+* Redução de erros
+* Escalabilidade sob demanda
+* Maior segurança
+* Melhor controle operacional
+
+---
