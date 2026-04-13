@@ -1,11 +1,6 @@
 # RELATÓRIO DE PLANEJAMENTO DE INFRAESTRUTURA
 ## Estudo de Caso I – Sistemas Operacionais
 
-**Aluno:** ______________________________________  
-**Curso:** ______________________________________  
-**Disciplina:** Sistemas Operacionais  
-**Professor:** Prof. Me. Deivison S. Takatu  
-**Data:** ____/____/______
 
 ---
 
