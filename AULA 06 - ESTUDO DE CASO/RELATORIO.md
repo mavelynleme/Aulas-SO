@@ -5,7 +5,7 @@
 
 **Disciplina:** Sistemas Operacionais  
 **Professor:** Prof. Me. Deivison S. Takatu  
-**Data:** ____/____/______  
+
 
 ---
 
