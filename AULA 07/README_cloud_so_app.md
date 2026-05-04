@@ -13,7 +13,6 @@ https://cloud-so-app.onrender.com/
 ## Teste Online no Render
 
 A aplicação está disponível online no seguinte endereço:
-
 https://cloud-so-app.onrender.com/
 
 ---
