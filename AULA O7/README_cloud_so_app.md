@@ -22,7 +22,7 @@ https://cloud-so-app.onrender.com/
 
 > Espaço reservado para inserir a imagem da aplicação rodando localmente.
 
-![Aplicação rodando em localhost](./imagens/localhost-cloud-so-app.png)
+![Aplicação rodando em localhost](./imagens/localhost.png)
 
 ---
 
