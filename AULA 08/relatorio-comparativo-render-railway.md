@@ -7,6 +7,7 @@
 **Data da análise:** 04/05/2026
 
 **Link RENDER:**  https://dashboard-so-hyrk.onrender.com/
+
 **Link RAILWAY:** https://dashboard-so-production.up.railway.app/
 
 ---
@@ -312,7 +313,7 @@ Insira aqui a imagem da aplicação rodando no Railway:
 
 ## 11. Links do projeto
 
-- **Aplicação no Render:** inserir link aqui
-- **Aplicação no Railway:** inserir link aqui
+- **Aplicação no Render:** https://dashboard-so-hyrk.onrender.com/
+- **Aplicação no Railway:** https://dashboard-so-production.up.railway.app/
 - **Repositório GitHub:** inserir link aqui
 
