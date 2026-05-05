@@ -4,12 +4,13 @@
 **Disciplina:** Sistemas Operacionais  
 **Aplicação analisada:** API/Dashboard Node.js + Express  
 **Plataformas comparadas:** Render e Railway  
-**Data da análise:** 04/05/2026
 
-**Link RENDER:**  https://dashboard-so-hyrk.onrender.com/
 
-**Link RAILWAY:** https://dashboard-so-production.up.railway.app/
+## Links do projeto
 
+- **Aplicação no Render:** https://dashboard-so-hyrk.onrender.com/
+- **Aplicação no Railway:** https://dashboard-so-production.up.railway.app/
+- **Repositório GitHub:** https://github.com/mavelynleme/dashboard-so
 ---
 
 ## 1. Objetivo do relatório
@@ -291,29 +292,7 @@ Assim, o projeto atingiu o objetivo de demonstrar, na prática, como uma aplica�
 
 ---
 
-## 10. Espaço para imagens
 
-### Print da aplicação no Render
 
-Insira aqui a imagem da aplicação rodando no Render:
 
-```md
-![Dashboard no Render](images/render-dashboard.png)
-```
-
-### Print da aplicação no Railway
-
-Insira aqui a imagem da aplicação rodando no Railway:
-
-```md
-![Dashboard no Railway](images/railway-dashboard.png)
-```
-
----
-
-## 11. Links do projeto
-
-- **Aplicação no Render:** https://dashboard-so-hyrk.onrender.com/
-- **Aplicação no Railway:** https://dashboard-so-production.up.railway.app/
-- **Repositório GitHub:** inserir link aqui
 
